@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/compenents/ui/toaster";
+import { Toaster as Sonner } from "@/compenents/ui/sonner";
+import { TooltipProvider } from "@/compenents/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Sidebar from "@/components/Sidebar";
-import SearchModal from "@/components/SearchModal";
+import Sidebar from "@/compenents/Sidebar";
+import SearchModal from "@/compenents/SearchModal";
 import Dashboard from "./pages/Dashboard";
 import CalculatorPage from "./pages/CalculatorPage";
 import NotesPage from "./pages/NotesPage";
