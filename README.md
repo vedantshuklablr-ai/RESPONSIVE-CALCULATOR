@@ -1,73 +1,168 @@
-# Welcome to your Lovable project
+# 🧮 Responsive Calculator & Productivity Suite
 
-## Project info
+A modern, feature-rich web application that combines a powerful calculator with multiple productivity tools, built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## ✨ Features
 
-## How can I edit this code?
+### 🧮 Calculator
+- **Advanced Operations**: Basic arithmetic, scientific functions, and memory operations
+- **History Tracking**: View and reuse previous calculations
+- **Keyboard Support**: Full keyboard navigation and shortcuts
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
-There are several ways of editing your application.
+### ⏰ Productivity Tools
+- **Timer**: Countdown timer with customizable presets
+- **Pomodoro Timer**: Focus sessions with break intervals
+- **Todo List**: Manage tasks with priority levels and completion tracking
+- **Notes**: Quick note-taking with auto-save functionality
+- **Weather**: Real-time weather information for any location
+- **Unit Converter**: Convert between various units (length, weight, temperature, etc.)
 
-**Use Lovable**
+### 🎨 UI/UX Features
+- **Dark/Light Mode**: Toggle between themes with smooth transitions
+- **Responsive Sidebar**: Collapsible navigation for better screen utilization
+- **Search Modal**: Quick access to any tool or feature
+- **Modern Animations**: Smooth transitions and micro-interactions
+- **Accessibility**: WCAG compliant with keyboard navigation support
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **State Management**: React Hooks + Context API
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Forms**: React Hook Form + Zod validation
+- **Testing**: Vitest + React Testing Library
 
-**Use your preferred IDE**
+## 🚀 Quick Start
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js 18+ and npm
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/vedantshuklablr-ai/RESPONSIVE-CALCULATOR.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to the project directory
+cd RESPONSIVE-CALCULATOR
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+# Start development server
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Build for production
+npm run build
 
-## What technologies are used for this project?
+# Preview production build
+npm run preview
 
-This project is built with:
+# Run tests
+npm run test
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Run tests in watch mode
+npm run test:watch
 
-## How can I deploy this project?
+# Lint code
+npm run lint
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🏗️ Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # shadcn/ui components
+│   ├── Sidebar.tsx      # Main navigation sidebar
+│   └── SearchModal.tsx  # Global search functionality
+├── pages/               # Feature pages
+│   ├── CalculatorPage.tsx
+│   ├── TimerPage.tsx
+│   ├── PomodoroPage.tsx
+│   ├── TodoPage.tsx
+│   ├── NotesPage.tsx
+│   ├── WeatherPage.tsx
+│   ├── UnitConverterPage.tsx
+│   ├── Dashboard.tsx
+│   └── SettingsPage.tsx
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+└── styles/              # Global styles and configurations
+```
 
-Yes, you can!
+## 🎯 Key Features Explained
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Calculator
+- Supports basic operations: addition, subtraction, multiplication, division
+- Advanced functions: square root, percentage, memory operations
+- Real-time calculation display
+- History panel with the ability to reuse previous results
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Pomodoro Timer
+- Customizable work session duration (default: 25 minutes)
+- Short and long break intervals
+- Session tracking and statistics
+- Audio notifications for session completion
+
+### Todo List
+- Create, edit, and delete tasks
+- Set priority levels (High, Medium, Low)
+- Mark tasks as complete
+- Filter by status or priority
+
+### Weather Widget
+- Search for any city worldwide
+- Display current temperature, humidity, and conditions
+- 5-day weather forecast
+- Automatic location detection
+
+## 🌐 Browser Support
+
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+- Mobile browsers (iOS Safari, Android Chrome)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Lucide](https://lucide.dev/) for the amazing icon set
+- [Framer Motion](https://www.framer.com/motion/) for smooth animations
+
+## 📞 Support
+
+If you have any questions or feedback, feel free to:
+- Open an issue on GitHub
+- Reach out via the project discussions
+
+---
+
+**Built with ❤️ by [Vedant Shukla](https://github.com/vedantshuklablr-ai)**
