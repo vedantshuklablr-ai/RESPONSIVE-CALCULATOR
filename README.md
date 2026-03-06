@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+Modern Responsive Calculator
+A sleek, high-performance web-based calculator built with React, TypeScript, and Tailwind CSS. This project features a fluid user interface, real-time arithmetic processing, and a fully responsive design tailored for all device sizes.
 
-## Project info
+✨ Features
+Real-time Calculation: Instant results as you type using optimized logic.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Fully Responsive: Seamless experience across mobile, tablet, and desktop views.
 
-## How can I edit this code?
+Modern UI/UX: Styled with Tailwind CSS and shadcn/ui for a professional look.
 
-There are several ways of editing your application.
+Type Safe: Built with TypeScript to ensure robust code quality.
 
-**Use Lovable**
+Vite Powered: Blazing fast development server and optimized production builds.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🚀 Tech Stack
+React 18 (UI Library)
 
-Changes made via Lovable will be committed automatically to this repo.
+TypeScript (Static Typing)
 
-**Use your preferred IDE**
+Vite (Fast Build Tooling)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tailwind CSS (Utility-first Styling)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+shadcn/ui (Accessible Component Library)
 
-Follow these steps:
+🛠️ Getting Started
+Clone the repository:
+git clone https://github.com/vedantshuklablr-ai/RESPONSIVE_CALCULATOR.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Install dependencies:
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Start the development server:
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+📦 Project Structure
+src/components/: Reusable UI components.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+src/hooks/: Custom logic for calculations.
 
-**Use GitHub Codespaces**
+App.tsx: Main application entry point.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🤝 Contributing
+Fork the Project.
 
-## What technologies are used for this project?
+Create your Feature Branch.
 
-This project is built with:
+Commit your Changes.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Push to the Branch and open a Pull Request.
 
-## How can I deploy this project?
+📄 License
+Distributed under the MIT License.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Developed by Vedant Shukla
