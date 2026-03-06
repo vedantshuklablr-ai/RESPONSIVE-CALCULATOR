@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# 🧮 Responsive Calculator & Productivity Suite
 
-## Project info
+A modern, feature-rich web application that combines a powerful calculator with multiple productivity tools, built with cutting-edge web technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🎯 About The Project
 
-## How can I edit this code?
+This is a comprehensive productivity suite that brings together essential tools in one beautiful, responsive interface. The application features a scientific calculator with history tracking, a Pomodoro timer for focused work sessions, a todo list manager, quick notes, weather information, and a unit converter - all designed with a modern, intuitive user experience.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Frontend Framework
+- **React 18** - Modern UI library with hooks and concurrent features
+- **TypeScript** - Type-safe JavaScript for better code quality and developer experience
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Build Tool & Development
+- **Vite** - Lightning-fast build tool and development server
+- **ESLint** - Code linting and formatting for consistent code style
 
-Changes made via Lovable will be committed automatically to this repo.
+### Styling & UI Components
+- **Tailwind CSS** - Utility-first CSS framework for rapid styling
+- **shadcn/ui** - Beautiful, accessible component library built on Radix UI
+- **Framer Motion** - Production-ready motion library for smooth animations
 
-**Use your preferred IDE**
+### Routing & State Management
+- **React Router DOM** - Declarative routing for single-page applications
+- **React Hooks & Context API** - Built-in state management solutions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Forms & Validation
+- **React Hook Form** - Performant, flexible forms with easy validation
+- **Zod** - TypeScript-first schema validation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Icons & UI Enhancement
+- **Lucide React** - Beautiful & consistent icon toolkit
+- **next-themes** - Perfect dark mode implementation
 
-Follow these steps:
+### Testing
+- **Vitest** - Modern testing framework with Vite integration
+- **React Testing Library** - Testing utilities for React components
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Live Demo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**🌐 [Live Website](https://responsive-calculator.vercel.app/)**
 
-# Step 3: Install the necessary dependencies.
-npm i
+Experience the application in action with all features fully functional:
+- Advanced calculator with real-time calculations
+- Productivity timers and task management
+- Weather tracking and unit conversion tools
+- Responsive design that works on all devices
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📱 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/vedantshuklablr-ai/RESPONSIVE-CALCULATOR.git
+
+# Navigate to the project directory
+cd RESPONSIVE-CALCULATOR
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📄 License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is licensed under the MIT License.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Built with ❤️ by [Vedant Shukla](https://github.com/vedantshuklablr-ai)**
