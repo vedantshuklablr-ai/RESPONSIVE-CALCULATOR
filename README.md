@@ -39,13 +39,15 @@ This is a comprehensive productivity suite that brings together essential tools 
 
 ## 🚀 Live Demo
 
-**🌐 [Live Website](https://responsive-calculator.vercel.app/)**
+**🌐 [Live Website](https://responsive-calculator-pi.vercel.app/)**
 
 Experience the application in action with all features fully functional:
 - Advanced calculator with real-time calculations
 - Productivity timers and task management
 - Weather tracking and unit conversion tools
 - Responsive design that works on all devices
+
+> **Note**: The application is deployed on Vercel and automatically updates when you push changes to the main branch.
 
 ## 📱 Quick Start
 
